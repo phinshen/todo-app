@@ -2,7 +2,7 @@ import { useState, useContext, useEffect } from "react";
 import { Container, Button, Form } from "react-bootstrap";
 import { TodoContext } from "../contexts/TodoContext";
 import { useNavigate, useParams } from "react-router-dom";
-// useEffect: load the todo date when the page loads
+// useEffect: load the todo data when the page loads
 // useParams: allows us read the todo's id from the URL
 
 export default function EditTodo() {
